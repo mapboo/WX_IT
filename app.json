@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/Home/home",
+    "pages/Video/video",
+    "pages/My/my",
+    "pages/Course/course",
+    "pages/Web/web"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FFA500",
+    "list": [
+      {
+        "pagePath": "pages/Home/home",
+        "text": "首页",
+        "iconPath": "image/tab_home_nor.png",
+        "selectedIconPath": "image/tab_home_select.png"
+      },
+      {
+        "pagePath": "pages/Video/video",
+        "text": "视频",
+        "iconPath": "image/tab_video_nor.png",
+        "selectedIconPath": "image/tab_video_select.png"
+      },
+      {
+        "pagePath": "pages/My/my",
+        "text": "我的",
+        "iconPath": "image/tab_my_nor.png",
+        "selectedIconPath": "image/tab_my_select.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "cloud": true,
+  "sitemapLocation": "sitemap.json"
+}
